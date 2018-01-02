@@ -1,0 +1,96 @@
+/* CSS Document */
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/Roboto-Regular-webfont.eot");
+  src: url("../fonts/Roboto-Regular-webfont.eot?#iefix") format("embedded-opentype"), 
+url("../fonts/Roboto-Regular-webfont.woff") format("woff"), 
+url("../fonts/Roboto-Regular-webfont.ttf") format("truetype"), 
+url("../fonts/Roboto-Regular-webfont.svg#RobotoRegular") format("svg");
+  font-weight: normal;
+  font-style: normal; 
+ }
+
+@font-face {
+  font-family: 'Fago';
+  src: url("../fonts/fagoco-webfont.eot");
+  src: url("../fonts/fagoco-webfont.eot?#iefix") format("embedded-opentype"), 
+url("../fonts/fagoco-webfont.woff") format("woff"), 
+url("../fonts/fagoco-webfont.ttf") format("truetype"), 
+url("../fonts/fagoco-webfont.svg#fagocoregular") format("svg");
+  font-weight: normal;
+  font-style: normal; 
+ }
+ 
+ @font-face {
+    font-family: 'HOF';
+    src: url('../fonts/high_on_fire_-webfont.eot');
+    src: url('../fonts/high_on_fire_-webfont.eot?#iefix') format('embedded-opentype'),
+url('../fonts/high_on_fire_-webfont.woff2') format('woff2'),
+url('../fonts/high_on_fire_-webfont.woff') format('woff'),
+url('../fonts/high_on_fire_-webfont.ttf') format('truetype'),
+url('../fonts/high_on_fire_-webfont.svg#high_on_fireregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'DIN Wild';
+    src: url('../fonts/dinwild-black-webfont.eot');
+    src: url('../fonts/dinwild-black-webfont.eot?#iefix') format('embedded-opentype'),
+url('../fonts/dinwild-black-webfont.woff2') format('woff2'),
+url('../fonts/dinwild-black-webfont.woff') format('woff'),
+url('../fonts/dinwild-black-webfont.ttf') format('truetype'),
+url('../fonts/dinwild-black-webfont.svg#din_wildblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Mono Social Icons Font';
+    src: url('../fonts/MonoSocialIconsFont-1.10.eot');
+    src: url('../fonts/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
+url('../fonts/MonoSocialIconsFont-1.10.woff') format('woff'),
+url('../fonts/MonoSocialIconsFont-1.10.ttf') format('truetype'),
+url('../fonts/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
+    src: url('../fonts/MonoSocialIconsFont-1.10.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.symbol, a.symbol:before {
+    font-family: 'Mono Social Icons Font';
+    -webkit-text-rendering: optimizeLegibility;
+    -moz-text-rendering: optimizeLegibility;
+    -ms-text-rendering: optimizeLegibility;
+    -o-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+a.symbol:before {
+    content: attr(title);
+    margin-right: 0.3em;
+    font-size: 130%;
+}
+
+a.symbol {
+    padding: 7px 5px 3px 5px;
+    text-decoration: none;
+	color: #000;
+	font-size: 3.7em;
+}
+	
+.symbol {
+    padding: 7px 5px 3px 5px;
+    text-decoration: none;
+	color: #000;
+	font-size: 3.7em;
+}
+	
